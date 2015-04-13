@@ -6,9 +6,14 @@
 //  Copyright (c) 2015 Alexander. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+#import "CoreDataManager.h"
+#import "NetManager.h"
+#import "Site.h"
+#import "SiteCell.h"
+#import "WebViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <UIPopoverPresentationControllerDelegate>
 
 
 @end

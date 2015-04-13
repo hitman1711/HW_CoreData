@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E00CA0F1ADBAA8C009DF410 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00CA0E1ADBAA8C009DF410 /* CoreDataManager.m */; };
+		8E00CA151ADBBDC4009DF410 /* SiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00CA141ADBBDC4009DF410 /* SiteCell.m */; };
+		8E00CA181ADBC2C1009DF410 /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00CA171ADBC2C1009DF410 /* Site.m */; };
+		8E00CA1B1ADBC6AA009DF410 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00CA1A1ADBC6AA009DF410 /* NetManager.m */; };
+		8E00CA1E1ADC1695009DF410 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E00CA1D1ADC1695009DF410 /* WebViewController.m */; };
+		8E00CA211ADC3F1B009DF410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E00CA1F1ADC3F1B009DF410 /* Main.storyboard */; };
 		A8002C3F1AC8B173001B2503 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8002C3E1AC8B173001B2503 /* main.m */; };
 		A8002C421AC8B173001B2503 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8002C411AC8B173001B2503 /* AppDelegate.m */; };
 		A8002C451AC8B173001B2503 /* HW_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8002C431AC8B173001B2503 /* HW_CoreData.xcdatamodeld */; };
 		A8002C481AC8B173001B2503 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8002C471AC8B173001B2503 /* ViewController.m */; };
-		A8002C4B1AC8B173001B2503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8002C491AC8B173001B2503 /* Main.storyboard */; };
 		A8002C4D1AC8B173001B2503 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8002C4C1AC8B173001B2503 /* Images.xcassets */; };
 		A8002C501AC8B173001B2503 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8002C4E1AC8B173001B2503 /* LaunchScreen.xib */; };
 		A8002C5C1AC8B173001B2503 /* HW_CoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8002C5B1AC8B173001B2503 /* HW_CoreDataTests.m */; };
@@ -28,6 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E00CA0D1ADBAA8C009DF410 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		8E00CA0E1ADBAA8C009DF410 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		8E00CA131ADBBDC4009DF410 /* SiteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteCell.h; sourceTree = "<group>"; };
+		8E00CA141ADBBDC4009DF410 /* SiteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteCell.m; sourceTree = "<group>"; };
+		8E00CA161ADBC2C1009DF410 /* Site.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Site.h; sourceTree = "<group>"; };
+		8E00CA171ADBC2C1009DF410 /* Site.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Site.m; sourceTree = "<group>"; };
+		8E00CA191ADBC6AA009DF410 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		8E00CA1A1ADBC6AA009DF410 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		8E00CA1C1ADC1694009DF410 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8E00CA1D1ADC1695009DF410 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8E00CA201ADC3F1B009DF410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8002C391AC8B173001B2503 /* HW_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8002C3D1AC8B173001B2503 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8002C3E1AC8B173001B2503 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -36,7 +52,6 @@
 		A8002C441AC8B173001B2503 /* HW_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		A8002C461AC8B173001B2503 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8002C471AC8B173001B2503 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8002C4A1AC8B173001B2503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8002C4C1AC8B173001B2503 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A8002C4F1AC8B173001B2503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A8002C551AC8B173001B2503 /* HW_CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HW_CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +77,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E00CA101ADBAA93009DF410 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E00CA161ADBC2C1009DF410 /* Site.h */,
+				8E00CA171ADBC2C1009DF410 /* Site.m */,
+				A8002C401AC8B173001B2503 /* AppDelegate.h */,
+				A8002C411AC8B173001B2503 /* AppDelegate.m */,
+				8E00CA0D1ADBAA8C009DF410 /* CoreDataManager.h */,
+				8E00CA0E1ADBAA8C009DF410 /* CoreDataManager.m */,
+				8E00CA191ADBC6AA009DF410 /* NetManager.h */,
+				8E00CA1A1ADBC6AA009DF410 /* NetManager.m */,
+				A8002C431AC8B173001B2503 /* HW_CoreData.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8E00CA111ADBAA9D009DF410 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8E00CA1F1ADC3F1B009DF410 /* Main.storyboard */,
+				A8002C4E1AC8B173001B2503 /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8E00CA121ADBAAA6009DF410 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8002C461AC8B173001B2503 /* ViewController.h */,
+				A8002C471AC8B173001B2503 /* ViewController.m */,
+				8E00CA1C1ADC1694009DF410 /* WebViewController.h */,
+				8E00CA1D1ADC1695009DF410 /* WebViewController.m */,
+				8E00CA131ADBBDC4009DF410 /* SiteCell.h */,
+				8E00CA141ADBBDC4009DF410 /* SiteCell.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		A8002C301AC8B173001B2503 = {
 			isa = PBXGroup;
 			children = (
@@ -83,14 +136,10 @@
 		A8002C3B1AC8B173001B2503 /* HW_CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				A8002C401AC8B173001B2503 /* AppDelegate.h */,
-				A8002C411AC8B173001B2503 /* AppDelegate.m */,
-				A8002C461AC8B173001B2503 /* ViewController.h */,
-				A8002C471AC8B173001B2503 /* ViewController.m */,
-				A8002C491AC8B173001B2503 /* Main.storyboard */,
+				8E00CA101ADBAA93009DF410 /* Model */,
+				8E00CA121ADBAAA6009DF410 /* Controller */,
+				8E00CA111ADBAA9D009DF410 /* View */,
 				A8002C4C1AC8B173001B2503 /* Images.xcassets */,
-				A8002C4E1AC8B173001B2503 /* LaunchScreen.xib */,
-				A8002C431AC8B173001B2503 /* HW_CoreData.xcdatamodeld */,
 				A8002C3C1AC8B173001B2503 /* Supporting Files */,
 			);
 			path = HW_CoreData;
@@ -202,7 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8002C4B1AC8B173001B2503 /* Main.storyboard in Resources */,
+				8E00CA211ADC3F1B009DF410 /* Main.storyboard in Resources */,
 				A8002C501AC8B173001B2503 /* LaunchScreen.xib in Resources */,
 				A8002C4D1AC8B173001B2503 /* Images.xcassets in Resources */,
 			);
@@ -222,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E00CA151ADBBDC4009DF410 /* SiteCell.m in Sources */,
+				8E00CA1B1ADBC6AA009DF410 /* NetManager.m in Sources */,
 				A8002C421AC8B173001B2503 /* AppDelegate.m in Sources */,
 				A8002C3F1AC8B173001B2503 /* main.m in Sources */,
+				8E00CA1E1ADC1695009DF410 /* WebViewController.m in Sources */,
+				8E00CA0F1ADBAA8C009DF410 /* CoreDataManager.m in Sources */,
+				8E00CA181ADBC2C1009DF410 /* Site.m in Sources */,
 				A8002C481AC8B173001B2503 /* ViewController.m in Sources */,
 				A8002C451AC8B173001B2503 /* HW_CoreData.xcdatamodeld in Sources */,
 			);
@@ -248,10 +302,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A8002C491AC8B173001B2503 /* Main.storyboard */ = {
+		8E00CA1F1ADC3F1B009DF410 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A8002C4A1AC8B173001B2503 /* Base */,
+				8E00CA201ADC3F1B009DF410 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -416,6 +470,7 @@
 				A8002C611AC8B173001B2503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8002C621AC8B173001B2503 /* Build configuration list for PBXNativeTarget "HW_CoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +479,7 @@
 				A8002C641AC8B173001B2503 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
